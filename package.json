@@ -1,0 +1,29 @@
+{
+  "name": "s3-upload-folder",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/phortuin/s3-upload-folder",
+  "author": {
+    "name": "Anne Fortuin",
+    "url": "phortuin.nl"
+  },
+  "repository": "phortuin/s3-upload-folder",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "4.11.0"
+  },
+  "dependencies": {
+    "aws-sdk": "2.533.0",
+    "globby": "10.0.1",
+    "mime": "2.4.4"
+  }
+}
